@@ -2,7 +2,7 @@ Package.describe({
   name: 'nwdev:nsqjs-wrapped',
   version: '0.0.1',
   // Brief, one-line summary of the package.
-  summary: 'Wrapper for Node "NSQJS" package',
+  summary: 'Wrapper for Node Module "NSQJS"',
   // URL to the Git repository containing the source code for this package.
   git: 'https://github.com/wildjaybillyboy/nsqjs-wrapped.git',
   // By default, Meteor will default to using README.md for documentation.
