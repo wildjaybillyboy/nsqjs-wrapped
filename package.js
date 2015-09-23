@@ -29,5 +29,5 @@ Package.onTest(function(api) {
   api.addFiles('lib/nsqjs-common.js', ['server', 'client']);
   api.addFiles('server/nsqjs-server.js', 'server');
   api.addFiles('client/nsqjs-client.js', 'client');
-  api.addFiles('nsqjs-wrapped-test.js');
+  api.addFiles('nsqjs-wrapped-tests.js');
 });
