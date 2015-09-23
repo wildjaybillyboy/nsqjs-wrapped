@@ -26,6 +26,7 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use('tinytest');
+  api.use('mongo', ['client', 'server']);
   api.addFiles('lib/nsqjs-common.js', ['server', 'client']);
   api.addFiles('server/nsqjs-server.js', 'server');
   api.addFiles('client/nsqjs-client.js', 'client');
